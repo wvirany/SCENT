@@ -1,0 +1,8 @@
+include 'configs/scent_base.gin'
+include 'configs/envs/settings/small.gin'
+include 'configs/proxies/target/seh.gin'
+
+beta = 8
+run_name = 'test_minimal'
+n_iterations = 100
+WandbLogger.mode = 'disabled'
