@@ -4,5 +4,5 @@ include 'configs/proxies/target/seh.gin'
 
 beta = 8
 run_name = 'test_minimal'
-n_iterations = 100
-WandbLogger.mode = 'disabled'
+n_iterations = 10
+WandbLogger.project_name = 'SCENT-beta-experiments'
