@@ -1,0 +1,8 @@
+include 'configs/scent_base.gin'
+include 'configs/envs/settings/small.gin'
+include 'configs/proxies/target/seh.gin'
+
+beta = 128
+run_name = 'beta_128_experiment'
+n_iterations = 2000
+WandbLogger.project_name = 'SCENT-beta-experiments'
