@@ -1,6 +1,10 @@
 scripts/
 configs/grid_search/
 logs/
+# temp docs for cursor
+docs/
+final_paths.csv
+data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -162,4 +166,3 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 ignored/
-
