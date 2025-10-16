@@ -3,10 +3,9 @@
 #SBATCH --mem=32G
 #SBATCH --cpus-per-task=4
 #SBATCH --gres=gpu:l40s:1
-#SBATCH --job-name=scenta_train_medium
-#SBATCH --output=logs/train_medium_%A_%a.out
-#SBATCH --error=logs/train_medium_%A_%a.err
-#SBATCH --array=1-8
+#SBATCH --job-name=scent_train_medium
+#SBATCH --output=logs/train_medium_%A.out
+#SBATCH --error=logs/train_medium_%A.err
 #SBATCH --requeue
 
 # Load modules

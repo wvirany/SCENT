@@ -5,4 +5,5 @@ include 'configs/proxies/target/seh.gin'
 beta = 8
 run_name = 'medium'
 n_iterations = 2000
-WandbLogger.project_name = 'SCENT-train-medium'
+WandbLogger.project_name = 'Replay buffer experiments'
+

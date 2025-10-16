@@ -5,6 +5,7 @@ logs/
 docs/
 final_paths.csv
 data/
+experiments/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
